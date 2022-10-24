@@ -22,8 +22,4 @@ Options:
         --dna-debug:           sets the logging level to DEBUG (lots of additional info)
         --dna-versioned        saves version information in the html and blend filenames
         --dna-overwrite-css    overwrite dna.css, useful when modifying css in the script
-Examples:
-        default:       % blender2.5 --background -noaudio --python BlendFileDnaExporter_25.py
-        with options:  % blender2.5 --background -noaudio --python BlendFileDnaExporter_25.py -- --dna-keep-blend --dna-debug
-
 
