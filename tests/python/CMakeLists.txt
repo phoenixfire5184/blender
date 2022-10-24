@@ -48,8 +48,6 @@ function(add_python_test testname testscript)
   )
 endfunction()
 
-# ------------------------------------------------------------------------------
-# GENERAL PYTHON CORRECTNESS TESTS
 add_blender_test(
   script_load_keymap
   --python ${CMAKE_CURRENT_LIST_DIR}/bl_keymap_completeness.py
